@@ -1,7 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i|PT+Sans:400,400i,700);body {
+@import url(https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400i|PT+Sans:400,400i,700);@font-face {
+  font-family: 'Old Standard';
+  src: url(46661d6d65debc63884004fed6e37e5c.svg#old_standard_ttregular) format("svg"), url(5d36040c5873ad770308bc1c0b0c8d85.ttf); }
+
+body {
   background-color: black;
   color: white;
-  font-family: 'Old Standard TT', serif;
+  font-family: 'Old Standard', serif;
   margin: 0; }
 
 .cod-style {
