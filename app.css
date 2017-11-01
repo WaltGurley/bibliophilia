@@ -47,9 +47,14 @@
   opacity: 0;
   -webkit-transition: opacity 0.3s ease-out;
   transition: opacity 0.3s ease-out; }
-  .content-tile-text-holder:hover {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.6); }
+  @media (hover: hover) {
+    .content-tile-text-holder:hover {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.6); } }
+  @media (hover: none) {
+    .content-tile-text-holder.touch-event-style {
+      opacity: 1;
+      background-color: rgba(0, 0, 0, 0.6); } }
   .content-tile-text-holder .tile-text-style {
     cursor: default;
     color: #ffff00;
